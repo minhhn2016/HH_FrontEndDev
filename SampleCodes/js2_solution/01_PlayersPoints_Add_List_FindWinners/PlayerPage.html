@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+  <!-- ******************************************************************* -->
+  <!-- Notice how all elements are closed, e.g. <input ... /> or <br />
+    and also how elements inside other element are indented a bit.
+    Apart from head and body which we usually write from beginning of
+    the line. -->
+  <p>
+    Player: <input id="player" type="text" name="player" /><br /> 
+    Points: <input id="points" type="number" name="points" /><br />
+    <br />
+
+    <!-- The text value of the 'onclick' attribute _is_ JavaScript code!
+         So we have very small amount of JavaScript inside our HTML.
+         (((We could avoid even that if we would attach the event handlers
+         to the DOM from JavaScript))) -->
+
+    <button onclick="addPlayer();">Add</button>
+  </p>
+
+  <hr />
+
+  <p>
+    <button onclick="showList();">List Players</button>
+
+    <!-- We need to give the ul an id so that we can access it from
+         our JavaScript code -->
+    <ul id="playerList"></ul>
+  </p>
+
+  <hr />
+
+  <p>
+    <button onclick="findWinners();">Find Winners</button><br />
+    <span id="winnerOutput"></span>
+  </p>
+
+  <hr />
+
+  <footer>
+    &copy;2017 Somebody
+  </footer>
+
+  <!-- actually the following element is also 100% HTML -->
+  <script src="PlayerCode.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+Make a root folder for your five versions, e.g. JavaScript_02
+
+1. Copy the given solution 01_PlayersPoints_Add_List_findWinnersthere.
+No need to edit it, just read the code and the comments
+
+2. Make another copy of that folder with name 02_EventHandlersAttachedFromJS.
+Remove the 'onclick' attributes from HTML, add 'id':s for the buttons instead. 
+e.g. btAddPlayer, btListPlayers, ...
+
+a) Write three lines that find each button and add correct event handler to each of them.
+Where should you logically put these lines? Remember the recommended practice to define 
+function first and call it later in the code. Test that the buttons work like before!
+
+b) Comment out those three lines away and below them define a new function 'addEventHandlers', 
+which is given nothing but it does exactly the same three lines. Test! Why it's not working?
+What's the meaning of defining a function? What should you also remember to do?
+
+c) Comment out the function definition and function call from step b). Instead of that
+use the SIAF (Self-invoking Anonymous Function), it looks something like this:
+
+(function () {
+   // do your thing(s)
+})();
+
+Test that it works like before!
+
+3. Copy the folder to third name 03_WithConstructorFunctionPlayer
+
+Read e.g. from the OSE course material how to create objects using the old JavaScript way, http://myy.haaga-helia.fi/~bit/swd1tf001/ u:Course pw:Pages
+using a 'constructor function' that starts the type definition and then attaching more features to that 'type'. And later creating Player objects using the function and the keyword new.
+
+Change the code to use the constructor function and e.g. method toString which is 
+needed at least twice in the program. Test!
+
+4. Copy the folder to fourth name 04_WithClassPlayer
+
+Use the ECMAScript 6 way of writing the same, but totally different way. Looking like Java classes.
+
+5. Copy the folder to fifth name 05_WithClassPlayerInheritingClassPerson
+
+Use the ECMAScript 6 way of to do inheritance. Looks a lot like Java inheritance.
+

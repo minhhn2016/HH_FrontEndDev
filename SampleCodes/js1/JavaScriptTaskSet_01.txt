@@ -1,0 +1,11 @@
+JavaScript task 01           (Not for the beginners' course!)
+
+Look at the given JavaScriptTask_Screenshot.png picture. Implement it a JavaScript program. No CSS this time. Only one HTML and one JS file.
+
+Spend no time with the styles, colors, widths, heights. Just concentrate on valid and nicely indented HTML and JS code. Use validators.
+
+You can call your folder: 01_PlayersPoints_Add_List_FindWinners
+
+Do not write any JavaScript inside your script elements. I.e. use an external and linked JavaScript file.
+
+(The result of this task will be the starting point of the next programming task)
